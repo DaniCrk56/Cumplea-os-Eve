@@ -1279,21 +1279,19 @@ button:hover{
 
 .btn-volver{
 
-    background:white;
+    display:block !important;
 
-    color:#d63384;
+    background:red !important;
 
-    border:2px solid #d63384;
+    color:white !important;
 
-    padding:12px 25px;
+    padding:15px 25px;
 
-    border-radius:50px;
+    margin:20px auto;
 
-    cursor:pointer;
+    border:none;
 
-    margin-bottom:30px;
-
-    transition:.3s;
+    border-radius:10px;
 }
 
 .btn-volver:hover{
