@@ -106,3 +106,42 @@ function crearCorazon(){
 
 setInterval(crearCorazon,800);
 
+
+const btnVolverInicio =
+document.getElementById("btnVolverInicio");
+
+btnVolverInicio.addEventListener("click", () => {
+
+    document.getElementById("recuerdos")
+        .classList.add("oculta");
+
+    document.getElementById("inicio")
+        .classList.remove("oculta");
+
+});
+
+const btnVolverRecuerdos =
+document.getElementById("btnVolverRecuerdos");
+
+btnVolverRecuerdos.addEventListener("click", () => {
+
+    document.getElementById("razones")
+        .classList.add("oculta");
+
+    document.getElementById("recuerdos")
+        .classList.remove("oculta");
+
+});
+
+const btnVolverRazones =
+document.getElementById("btnVolverRazones");
+
+btnVolverRazones.addEventListener("click", () => {
+
+    document.getElementById("final")
+        .classList.add("oculta");
+
+    document.getElementById("razones")
+        .classList.remove("oculta");
+
+});
